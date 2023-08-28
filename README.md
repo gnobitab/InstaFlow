@@ -13,5 +13,5 @@ By adopting text-conditioned reflow and distillation, we obtain the first one-st
 
 In this repo, we release the evaluation code along with pre-trained models.
 
-![](github_misc/fig1.pdf)
+![](github_misc/fig1.png)
 
