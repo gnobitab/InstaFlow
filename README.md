@@ -13,7 +13,7 @@ By adopting text-conditioned reflow and distillation, we obtain the first one-st
 
 ## Comparison with SD 1.5 in Inference Time
 
-We use the same computer and took screenshots of random generation. The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
+For an intuitive understanding, we use the same computer and took screenshots of random generation. The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
 
 
                    InstaFlow-0.9B                                   Stable Diffusion 1.5
