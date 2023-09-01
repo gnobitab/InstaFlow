@@ -26,6 +26,40 @@ We provide an interactive Colab notebook to help you play with our one-step mode
 
 ## Gradio User Interface
 
+We provide a minimal Gradio Interface for inference with our one-step model and refine with SDXL-Refiner-1.0.
+
+### Environment
+
+Install the environment with the following commands:
+
+```
+pip install accelerate transformers invisible-watermark "numpy>=1.17" "PyWavelets>=1.1.1" "opencv-python>=4.1.0.25" safetensors "gradio==3.11.0"
+pip install git+https://github.com/huggingface/diffusers.git
+```
+
+### Usage
+
+First clone the repo:
+
+```
+git clone xxx
+
+cd xxx
+```
+
+Then we download the checkpoint ```instaflow_0_9B.pt``` and put it in ```./```. It is the one-step InstaFlow-0.9B model. Download [Here]()
+
+Finally, use the following commands to start the Gradio Interface:
+
+```
+python gradio_interface.py
+```
+
+The interface should appear like this:
+
+add image
+
+
 ## Gallery
 ![](github_misc/fig1.png)
 
