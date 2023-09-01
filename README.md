@@ -13,14 +13,14 @@ By adopting text-conditioned reflow and distillation, we obtain the first one-st
 
 ![](github_misc/comparison.gif)
 
-![](github_misc/fig1.png)
-
 ## Interactive Colab Notebook
 
 We provide an interactive Colab notebook to help you play with our one-step model. Click [Here]() 
 
 ## Gradio User Interface
 
+## Gallery
+![](github_misc/fig1.png)
 
 ## Related Materials
 
