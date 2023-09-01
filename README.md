@@ -16,7 +16,7 @@ By adopting text-conditioned reflow and distillation, we obtain the first one-st
 We use the same computer and took screenshots of random generation. The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
 
 
-                   InstaFlow-0.9B                          Stable Diffusion 1.5
+                   InstaFlow-0.9B                                   Stable Diffusion 1.5
 
 ![](github_misc/comparison.gif)
 
