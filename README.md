@@ -61,7 +61,17 @@ add image
 
 
 ## Gallery
-![](github_misc/fig1.png)
+
+### One-step generation with InstaFlow-0.9B in 0.09s
+
+![gallery](github_misc/gallery/09B_img_1.png){:height="256px" width="256px"}
+![gallery](github_misc/gallery/09B_img_2.png){:height="256px" width="256px"}
+![gallery](github_misc/gallery/09B_img_3.png){:height="256px" width="256px"}
+![gallery](github_misc/gallery/09B_img_4.png){:height="256px" width="256px"}
+
+### One-step generation with InstaFlow-1.7B in 0.12s
+
+### One-step generation refined with SDXL-Refiner
 
 ## Related Materials
 
