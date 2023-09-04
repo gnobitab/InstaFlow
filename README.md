@@ -64,9 +64,11 @@ add image
 
 ### One-step generation with InstaFlow-0.9B in 0.09s
 
-<p float="left">
+<p align="middle">
   <img src='github_misc/gallery/09B_img_1.png' width='256'> 
   <img src='github_misc/gallery/09B_img_2.png' width='256'> 
+</p>
+<p align="middle">
   <img src='github_misc/gallery/09B_img_3.png' width='256'> 
   <img src='github_misc/gallery/09B_img_4.png' width='256'>
 </p>
