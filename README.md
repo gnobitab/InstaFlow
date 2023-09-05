@@ -6,7 +6,10 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 
 ## Introduction
 
-InstaFlow is an one-step model dervied from pre-trained Stable Diffusion. Our key technique is a text-conditioned ```Reflow``` procedure which is the core of the [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) pipeline. ```Reflow``` straightens the trajectories of probability flows, refines the coupling between noises and images, and facilitates the distillation process with student models. However, the effectiveness of reflow has only been examined on small datasets like CIFAR10. 
+**InstaFlow** is an one-step model dervied from pre-trained Stable Diffusion. Our key technique is a text-conditioned ```reflow``` procedure which is the core of the [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) pipeline. ```Reflow``` straightens the trajectories of probability flows, refines the coupling between noises and images, and facilitates the distillation process with student models. However, before **InstaFlow**, the effectiveness of reflow has only been examined on small datasets like CIFAR10. 
+
+**InstaFlow** has several advantages:
+ 
 
 ## Gallery
 
