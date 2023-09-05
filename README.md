@@ -9,10 +9,11 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 **InstaFlow** is an ```one-step image generator``` dervied from the pre-trained Stable Diffusion. Our key technique is a text-conditioned ```reflow``` procedure which is the core of the [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) pipeline. ```Reflow``` straightens the trajectories of probability flows, refines the coupling between noises and images, and facilitates the distillation process with student models. However, before **InstaFlow**, the effectiveness of ```reflow``` has only been examined on small datasets like CIFAR10. 
 
 **InstaFlow** has several advantages: 
-- **Ultra-Fast Inference**: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling. On our computer, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original SD.
-- **High-Quality**: **InstaFlow** is the **first** one-step generator derived from diffusion models that has **GAN-level generation quality**.
-- **Simple and Efficient Training**: The training process of **InstaFlow** merely involves **supervised training**, which is much less trickier than adversarial training. Leveraging pre-trained Stable Diffusion, it only takes us **199 A100 GPU days** to get **InstaFlow-0.9B**.  
- 
+- ```Ultra-Fast Inference```: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling. On our computer, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original SD.
+- ```High-Quality```: **InstaFlow** is the **first** one-step generator derived from diffusion models that has **GAN-level generation quality**.
+- ```Simple and Efficient Training```: The training process of **InstaFlow** merely involves **supervised training**, which is much less trickier than adversarial training. Leveraging pre-trained Stable Diffusion, it only takes us **199 A100 GPU days** to get **InstaFlow-0.9B**.  
+
+**TODO: add Figure** 
 
 ## Gallery
 
