@@ -1,16 +1,12 @@
-# RectifiedFlow-SD
+# InstaFlow
 
-This is the official implementation of paper
-## [Pushing Stable Diffusion to One-Step Generation with Rectified Flow]()
+This is the official page of paper
+## [InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation]()
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin
 
 ## Introduction
 
-[Rectified Flow](https://github.com/gnobitab/RectifiedFlow) is a novel method for generative modeling. The crux of the Rectified Flow pipeline is a special **reflow** procedure which straightens the trajectories of probability flows and eventually reaches **one-step** generation.
-
-In this work, we prove that the Rectified Flow framework works not only on small-scale problems, but also on large foundation models like Stable Diffusion.
-By adopting text-conditioned reflow and distillation, we obtain the first one-step SD model that can generate high-quality images, with **pure supervised learning**. Based on the pre-trained SD 1.5, our one-step model only costs **199 A100 GPU days** for training.
-
+InstaFlow is an one-step model dervied from pre-trained Stable Diffusion. Our key technique is a text-conditioned ```Reflow``` procedure which is the core of the [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) pipeline. ```Reflow``` straightens the trajectories of probability flows, refines the coupling between noises and images, and facilitates the distillation process with student models. However, the effectiveness of reflow has only been examined on small datasets like CIFAR10. 
 
 ## Gallery
 
