@@ -50,6 +50,8 @@ For an intuitive understanding, we use the same computer and took screenshots of
 
 ![](github_misc/comparison.gif)
 
+![](github_misc/sd_instaflow.mp4)
+
 ## Related Materials
 
 We provide several related links and readings here:
