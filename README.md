@@ -1,17 +1,20 @@
 <div align="center">
 
-#InstaFlow
+# InstaFlow
 
 **One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation**
 
-by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
-
 [[Paper]]()
+
+by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* 
+
+from [Helixon Research](https://www.helixon.com/) and UT Austin 
+
 </div>
 
 ## Introduction
 
-**InstaFlow** is an ```one-step image generator``` dervied from the pre-trained Stable Diffusion. Our key technique is a text-conditioned ```reflow``` procedure which is the core of the [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) pipeline. ```Reflow``` straightens the trajectories of probability flows, refines the coupling between noises and images, and facilitates the distillation process with student models. However, before **InstaFlow**, the effectiveness of ```reflow``` has only been examined on small datasets like CIFAR10. 
+Diffusion models are known to be slow due to the need of iterative inference. InstaFlow is an ```ultra-fast```, ```one-step``` image generator derived from pre-trained Stable Diffusion. InstaFlow is enabled by [Rectified Flow](https://github.com/gnobitab/RectifiedFlow).
 
 **InstaFlow** has several advantages: 
 - ```Ultra-Fast Inference```: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling. On our computer, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original SD.
