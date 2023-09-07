@@ -1,6 +1,12 @@
+<div align="center">
+
 # InstaFlow
 
-This is the official page of paper
+[[Website]](https://libero-project.github.io)
+[[Paper]](https://arxiv.org/pdf/2306.03310.pdf)
+[[Docs]](https://lifelong-robot-learning.github.io/LIBERO/)
+</div>
+
 ## [InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation]()
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin
 
