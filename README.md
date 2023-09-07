@@ -10,9 +10,9 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 
 ## Introduction
 
-Diffusion models are known to be slow due to the need of iterative inference. InstaFlow is an ```ultra-fast```, ```one-step``` image generator derived from pre-trained Stable Diffusion. InstaFlow is enabled by [Rectified Flow](https://github.com/gnobitab/RectifiedFlow).
+Diffusion models have demonstrated remarkable promises in text-to-image generation. However, their efficacy is still largely hindered by computational constraints stemming from the need of iterative numerical solvers at the inference time for solving the diffusion/flow processes. 
 
-Diffusion models have demonstrated remarkable promises in text-to-image generation. However, their efficacy is still largely hindered by computational constraints stemming from the need of iterative numerical solvers at the inference time for solving the diffusion/flow processings. InstaFlow is an ultra-fast, one-step image generator that achieves image quality close to stable diffusion, while requiring significantly reduced computational resources. This efficiency is made possible through a recent Rectified Flow technique, which trains probability flows with straight trajectories, hence inherently requiring only a single step for fast inference.
+InstaFlow is an ```ultra-fast```, ```one-step``` image generator that achieves image quality close to Stable Diffusion, while requiring significantly reduced computational resources. This efficiency is made possible through a recent [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) technique, which trains probability flows with straight trajectories, hence inherently requiring only a single step for fast inference.
 
 **InstaFlow** has several advantages: 
 - ```Ultra-Fast Inference```: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling of diffusion models. On our machine with A100 GPU, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original Stable Diffusion.
