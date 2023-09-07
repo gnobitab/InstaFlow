@@ -49,10 +49,11 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 
 ## Comparison with SD 1.5 on our A100 machine
 
-For an intuitive understanding, we used the same A100 server and took screenshots from the Gridio interface of random generation with different models. InstaFlow-0.9B is one-step, while SD 1.5 adopts 25-step [DPMSolver](https://github.com/LuChengTHU/dpm-solver). The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
+For an intuitive understanding, we used the same A100 server and took screenshots from the Gridio interface of random generation with different models. InstaFlow-0.9B is one-step, while SD 1.5 adopts 25-step [DPMSolver](https://github.com/LuChengTHU/dpm-solver). It takes around 0.3 second to download the image from the server. The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
 
-
-                   InstaFlow-0.9B                                              Stable Diffusion 1.5
+```
+                   InstaFlow-0.9B                                    Stable Diffusion 1.5
+```
 
 ![](github_misc/comparison.gif)
 
