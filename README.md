@@ -1,9 +1,8 @@
 <div align="center">
 
 #InstaFlow
+
 **One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation**
-
-
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
