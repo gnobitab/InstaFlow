@@ -52,8 +52,11 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 
 
 
-https://github.com/gnobitab/InstaFlow/assets/1157982/b0b04632-39ff-4154-8bcd-f62b4a940435
+<div align="center">
 
+https://github.com/gnobitab/InstaFlow/assets/1157982/a03b2bf5-ee41-4142-a0a1-a15f91aacf0d
+
+</div>
 
 
 ## Comparison with SD 1.5 on our A100 machine
