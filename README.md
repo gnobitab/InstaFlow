@@ -1,7 +1,6 @@
 <div align="center">
 
-# InstaFlow: One Step is Enough for High-Quality Diffusion-Based 
-# Text-to-Image Generation
+# InstaFlow: One Step is Enough for High-Quality Diffusion-Based <br /> Text-to-Image Generation
 
 [[Paper]]()
 
