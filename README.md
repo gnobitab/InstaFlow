@@ -1,7 +1,9 @@
 <div align="center">
 
-<font size=10> InstaFlow </font>
-<font size=7> One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation </font>
+#InstaFlow
+**One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation**
+
+
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
