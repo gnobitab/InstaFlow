@@ -41,10 +41,11 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
   <img src='github_misc/gallery/17B_img_4.png' width='192'>
 </p>
 
-### InstaFlow-0.9B one-step generation + SDXL-Refiner
+### One-step Generation with InstaFlow-0.9B (0.9s) + SDXL-Refiner
 
 <p align="middle">
-  <img src='github_misc/gallery/09B_refine.png' width='384'>
+  <img src='github_misc/gallery/09B_refine_1.png' width='384'>
+  <img src='github_misc/gallery/09B_refine_2.png' width='384'>
 </p>
 
 ## Comparison with SD 1.5 on our A100 machine
