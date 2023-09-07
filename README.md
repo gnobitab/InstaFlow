@@ -1,6 +1,7 @@
 <div align="center">
 
-# InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation
+# InstaFlow: One Step is Enough for High-Quality Diffusion-Based 
+# Text-to-Image Generation
 
 [[Paper]]()
 
@@ -45,9 +46,9 @@ Diffusion models are known to be slow due to the need of iterative inference. In
   <img src='github_misc/gallery/09B_refine.png' width='512'>
 </p>
 
-## Comparison with SD 1.5 on Real Computer
+## Comparison with SD 1.5 on our A100 machine
 
-For an intuitive understanding, we use the same computer and took screenshots of random generation with different models. InstaFlow-0.9B is one-step, while SD 1.5 adopts 25-step [DPMSolver](https://github.com/LuChengTHU/dpm-solver). The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
+For an intuitive understanding, we used the same A100 server and took screenshots from the Gridio interface of random generation with different models. InstaFlow-0.9B is one-step, while SD 1.5 adopts 25-step [DPMSolver](https://github.com/LuChengTHU/dpm-solver). The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
 
 
                    InstaFlow-0.9B                                              Stable Diffusion 1.5
@@ -60,7 +61,7 @@ We provide several related links and readings here:
 
 * The official Rectified Flow github repo (https://github.com/gnobitab/RectifiedFlow)
 
-* An introduction of Rectified Flow in English (https://www.cs.utexas.edu/~lqiang/rectflow/html/intro.html)
+* An introduction of Rectified Flow (https://www.cs.utexas.edu/~lqiang/rectflow/html/intro.html)
 
 * An introduction of Rectified Flow in Chinese--Zhihu (https://zhuanlan.zhihu.com/p/603740431)
 
