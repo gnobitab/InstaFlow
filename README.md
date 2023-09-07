@@ -23,7 +23,7 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 
 ## Gallery
 
-### One-step generation with InstaFlow-0.9B in 0.09s
+### One-step generation with InstaFlow-0.9B (0.09s per image, $512 \times 512$)
 
 <p align="middle">
   <img src='github_misc/gallery/09B_img_1.png' width='192'>
@@ -32,7 +32,7 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
   <img src='github_misc/gallery/09B_img_4.png' width='192'>
 </p>
 
-### One-step generation with InstaFlow-1.7B in 0.12s
+### One-step generation with InstaFlow-1.7B (0.12s per image, $512 \times 512$)
 
 <p align="middle">
   <img src='github_misc/gallery/17B_img_1.png' width='192'>
@@ -41,10 +41,10 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
   <img src='github_misc/gallery/17B_img_4.png' width='192'>
 </p>
 
-### InstaFlow-0.9B one-step generation refined with SDXL-Refiner
+### InstaFlow-0.9B one-step generation + SDXL-Refiner
 
 <p align="middle">
-  <img src='github_misc/gallery/09B_refine.png' width='512'>
+  <img src='github_misc/gallery/09B_refine.png' width='384'>
 </p>
 
 ## Comparison with SD 1.5 on our A100 machine
