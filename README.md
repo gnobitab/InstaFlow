@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
+## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
 [[Paper]]()
 
