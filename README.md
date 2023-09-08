@@ -1,6 +1,6 @@
 <div align="center">
 
-# InstaFlow! One-Step Stable Diffusion with Rectified Flow
+# ⚡ InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
 [[Paper]]()
 
@@ -16,7 +16,7 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 
 **InstaFlow** has several advantages: 
 - ```Ultra-Fast Inference```: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling of diffusion models. On our machine with A100 GPU, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original Stable Diffusion.
-- ```High-Quality```: **InstaFlow** generates images with intricate details like Stable Diffusion, and have similar FID on MS COCO 2014 as state-of-the-art text-to-image GAN, [StyleGAN-T](https://github.com/autonomousvision/stylegan-t).
+- ```High-Quality```: **InstaFlow** generates images with intricate details like Stable Diffusion, and have similar FID on MS COCO 2014 as state-of-the-art text-to-image GANs, like [StyleGAN-T](https://github.com/autonomousvision/stylegan-t).
 - ```Simple and Efficient Training```: The training process of **InstaFlow** merely involves **supervised training**. Leveraging pre-trained Stable Diffusion, it only takes **199 A100 GPU days** to get **InstaFlow-0.9B**.  
 
 ![](github_misc/n_step.png)
