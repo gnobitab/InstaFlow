@@ -61,9 +61,10 @@ https://github.com/gnobitab/InstaFlow/assets/1157982/a03b2bf5-ee41-4142-a0a1-a15
 
 For an intuitive understanding, we used the same A100 server and took screenshots from the Gridio interface of random generation with different models. InstaFlow-0.9B is one-step, while SD 1.5 adopts 25-step [DPMSolver](https://github.com/LuChengTHU/dpm-solver). It takes around 0.3 second to download the image from the server. The text prompt is *"A photograph of a snowy mountain near a beautiful lake under sunshine."*
 
-```
-                   InstaFlow-0.9B                               Stable Diffusion 1.5
-```
+
+| &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  InstaFlow-0.9B &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; | &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  Stable Diffusion 1.5 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; |
+|:-:|:-:|
+
 
 ![](github_misc/comparison.gif)
 
