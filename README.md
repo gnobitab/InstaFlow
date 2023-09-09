@@ -21,6 +21,25 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 
 ![](github_misc/n_step.png)
 
+## Method: Straightening Generative Probability Flows with Text-Conditioned Reflow
+
+<div align="center">
+  
+https://github.com/gnobitab/InstaFlow/assets/1157982/b0ddc7da-37d7-4e1c-8dde-2bccce868949
+    
+</div>
+
+<p align="middle">
+  <img src='github_misc/method_new.jpg' width='550'>
+</p>
+
+As captured in the video and the image, we apply ```text-conditioned reflow``` on Stable Diffusion to yield straight probability flows, since straight flows have the following advantages:
+
+* Straight flows require fewer steps to simulate.
+* Straight flows give better coupling between the noise distribution and the image distribution, thus allow successful distillation.
+
+By distilling from the reflowed striaght flows, we get **One-Step InstaFlow**.
+
 ## Gallery
 
 ### One-step generation with InstaFlow-0.9B (0.09s per image, $512 \times 512$)
