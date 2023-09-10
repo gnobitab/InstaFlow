@@ -38,7 +38,8 @@ As captured in the video and the image, we apply ```text-conditioned reflow``` o
 * Straight flows require fewer steps to simulate.
 * Straight flows give better coupling between the noise distribution and the image distribution, thus allow successful distillation.
 
-By distilling from the reflowed striaght flows, we get **One-Step InstaFlow**.
+
+Note that distillation and reflow are ```orthogonal techniques```. By distilling from the reflowed striaght flows, we get **One-Step InstaFlow**.
 
 ## Gallery
 
@@ -67,7 +68,7 @@ By distilling from the reflowed striaght flows, we get **One-Step InstaFlow**.
   <img src='github_misc/gallery/09B_refine_2.png' width='384'>
 </p>
 
-### Latent space interpolation of one-step InstaFlow-0.9B ($512 \times 512$)
+### Latent space interpolation of one-step InstaFlow-0.9B (0.09s per image, $512 \times 512$)
 
 <div align="center">
 
