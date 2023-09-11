@@ -12,7 +12,7 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 
 Diffusion models have demonstrated remarkable promises in text-to-image generation. However, their efficacy is still largely hindered by computational constraints stemming from the need of iterative numerical solvers at the inference time for solving the diffusion/flow processes. 
 
-**InstaFlow** is an ```ultra-fast```, ```one-step``` image generator that achieves image quality close to Stable Diffusion, requiring significantly reduced computational resources. This efficiency is made possible through a recent [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) technique, which trains probability flows with straight trajectories, hence inherently requiring only a single step for fast inference.
+**InstaFlow** is an ```ultra-fast```, ```one-step``` image generator that achieves image quality close to Stable Diffusion, significantly reducing the demand of computational resources. This efficiency is made possible through a recent [Rectified Flow](https://github.com/gnobitab/RectifiedFlow) technique, which trains probability flows with straight trajectories, hence inherently requiring only a single step for fast inference.
 
 **InstaFlow** has several advantages: 
 - ```Ultra-Fast Inference```: **InstaFlow** models are **one-step generators**, which directly map noises to images and avoid multi-step sampling of diffusion models. On our machine with A100 GPU, the inference time is around 0.1 second, saving ~90% of the inference time compared to the original Stable Diffusion.
@@ -26,11 +26,9 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 <div align="center">
 
 
+https://github.com/gnobitab/InstaFlow/assets/1157982/4471bc00-f1fd-489a-874b-ac9b24a58c71
 
-https://github.com/gnobitab/InstaFlow/assets/1157982/89186fb2-78ab-4f77-a9c1-41b4a0a9a7b1
-
-
-    
+ 
 </div>
 
 <p align="middle">
@@ -39,7 +37,7 @@ https://github.com/gnobitab/InstaFlow/assets/1157982/89186fb2-78ab-4f77-a9c1-41b
 
 Our pipeline consists of three steps:
 
-1. Generate (noise, image) pairs from pre-trained Stable Diffusion
+1. Generate (text, noise, image) triplets from pre-trained Stable Diffusion
 2. Apply ```text-conditioned reflow``` to yield 2-Rectified Flow, which is a straightened generative probaiblity flow.
 3. Distill from 2-Rectified Flow to get **One-Step InstaFlow**. Note that distillation and reflow are ```orthogonal techniques```.
 
