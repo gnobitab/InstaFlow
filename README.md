@@ -2,7 +2,7 @@
 
 ## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
-[[Paper]]()
+[[Paper]](https://arxiv.org/abs/2309.06380)
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
