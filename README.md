@@ -109,7 +109,14 @@ We provide several related links and readings here:
 
 ## Citation
 
-TODO
+```
+@article{liu2023insta,
+  title={InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation},
+  author={Liu, Xingchao and Zhang, Xiwen and Ma, Jianzhu and Peng, Jian and Liu, Qiang},
+  journal={arXiv preprint arXiv:2309.06380},
+  year={2023}
+}
+```
 
 ## Thanks
 
