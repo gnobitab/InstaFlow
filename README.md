@@ -26,7 +26,7 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 <div align="center">
 
 
-https://github.com/gnobitab/InstaFlow/assets/1157982/4471bc00-f1fd-489a-874b-ac9b24a58c71
+https://github.com/gnobitab/InstaFlow/assets/1157982/897e2d1a-eff9-44bf-ab89-bc26bbc0d8a7
 
  
 </div>
@@ -77,7 +77,9 @@ As captured in the video and the image, straight flows have the following advant
 
 <div align="center">
 
-https://github.com/gnobitab/InstaFlow/assets/1157982/a03b2bf5-ee41-4142-a0a1-a15f91aacf0d
+
+https://github.com/gnobitab/InstaFlow/assets/1157982/2334d848-5356-4a3d-9e0a-415329f7de13
+
 
 </div>
 
