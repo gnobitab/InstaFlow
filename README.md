@@ -66,7 +66,7 @@ As captured in the video and the image, straight flows have the following advant
   <img src='github_misc/gallery/17B_img_4.png' width='192'>
 </p>
 
-### One-step generation with InstaFlow-0.9B (0.9s) + SDXL-Refiner ($1024 \times 1024$)
+### One-step generation with InstaFlow-0.9B (0.09s) + SDXL-Refiner ($1024 \times 1024$)
 
 <p align="middle">
   <img src='github_misc/gallery/09B_refine_1.png' width='384'>
