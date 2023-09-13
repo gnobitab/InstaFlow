@@ -78,7 +78,11 @@ As captured in the video and the image, straight flows have the following advant
 <div align="center">
 
 
-https://github.com/gnobitab/InstaFlow/assets/1157982/2334d848-5356-4a3d-9e0a-415329f7de13
+
+
+
+https://github.com/gnobitab/InstaFlow/assets/1157982/e8c41d7c-aa1d-4ac3-b96f-5cda847331fe
+
 
 
 </div>
