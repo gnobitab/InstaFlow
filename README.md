@@ -2,11 +2,15 @@
 
 ## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
-[[Paper]](https://arxiv.org/abs/2309.06380)
+[[Paper]](https://arxiv.org/abs/2309.06380) [[(New !) Demo in 🤗Huggingface Space]](https://huggingface.co/spaces/XCLiu/InstaFlow)
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
 </div>
+
+## News 
+
+- (🔥New) 2023/09/26 We provide a demo of InstaFlow-0.9B in 🤗Huggingface Space. Try it [here](https://huggingface.co/spaces/XCLiu/InstaFlow).
 
 ## Introduction
 
