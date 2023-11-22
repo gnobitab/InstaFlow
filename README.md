@@ -2,11 +2,17 @@
 
 ## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
-[[Paper]](https://arxiv.org/abs/2309.06380)
+[[Paper]](https://arxiv.org/abs/2309.06380) [[Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[(🔥New) Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)]
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
 </div>
+
+## News 
+
+- (🔥New) 2023/11/22 One-step InstaFlow is compatible with pre-trained ControlNets. See [here](https://github.com/gnobitab/InstaFlow/tree/main#controlnet). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))
+- (🔥New) 2023/11/22 We release the pre-trained models and inference codes [here](https://github.com/gnobitab/InstaFlow/tree/main/code).
+- 2023/09/26 We provide a demo of InstaFlow-0.9B in 🤗Hugging Face Space. Try it [here](https://huggingface.co/spaces/XCLiu/InstaFlow).
 
 ## Introduction
 
@@ -20,31 +26,6 @@ Diffusion models have demonstrated remarkable promises in text-to-image generati
 - ```Simple and Efficient Training```: The training process of **InstaFlow** merely involves **supervised training**. Leveraging pre-trained Stable Diffusion, it only takes **199 A100 GPU days** to get **InstaFlow-0.9B**.  
 
 ![](github_misc/n_step.png)
-
-## Method: Straightening Generative Probability Flows with Text-Conditioned Reflow
-
-<div align="center">
-
-
-https://github.com/gnobitab/InstaFlow/assets/1157982/897e2d1a-eff9-44bf-ab89-bc26bbc0d8a7
-
- 
-</div>
-
-<p align="middle">
-  <img src='github_misc/method_new.jpg' width='550'>
-</p>
-
-Our pipeline consists of three steps:
-
-1. Generate (text, noise, image) triplets from pre-trained Stable Diffusion
-2. Apply ```text-conditioned reflow``` to yield 2-Rectified Flow, which is a straightened generative probability flow.
-3. Distill from 2-Rectified Flow to get **One-Step InstaFlow**. Note that distillation and reflow are ```orthogonal techniques```.
-
-As captured in the video and the image, straight flows have the following advantages:
-
-* Straight flows require fewer steps to simulate.
-* Straight flows give better coupling between the noise distribution and the image distribution, thus allow successful distillation.
 
 ## Gallery
 
@@ -87,6 +68,14 @@ https://github.com/gnobitab/InstaFlow/assets/1157982/e8c41d7c-aa1d-4ac3-b96f-5cd
 
 </div>
 
+## ControlNet
+
+One-step InstaFlow is fully compatible with pre-trained ControlNets. We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/) for providing and testing the *Rectified Flow+ControlNet* pipeline!
+
+Below are **One-Step Generation** with InstaFlow-0.9B + ControlNet:
+
+![](github_misc/github_controlnet.jpg) 
+
 
 ## Comparison with SD 1.5 on our A100 machine
 
@@ -98,6 +87,33 @@ For an intuitive understanding, we used the same A100 server and took screenshot
 
 
 ![](github_misc/comparison.gif)
+
+## Method: Straightening Generative Probability Flows with Text-Conditioned Reflow
+
+<div align="center">
+
+
+https://github.com/gnobitab/InstaFlow/assets/1157982/897e2d1a-eff9-44bf-ab89-bc26bbc0d8a7
+
+ 
+</div>
+
+<p align="middle">
+  <img src='github_misc/method_new.jpg' width='550'>
+</p>
+
+Our pipeline consists of three steps:
+
+1. Generate (text, noise, image) triplets from pre-trained Stable Diffusion
+2. Apply ```text-conditioned reflow``` to yield 2-Rectified Flow, which is a straightened generative probaiblity flow.
+3. Distill from 2-Rectified Flow to get **One-Step InstaFlow**. Note that distillation and reflow are ```orthogonal techniques```.
+
+As captured in the video and the image, straight flows have the following advantages:
+
+* Straight flows require fewer steps to simulate.
+* Straight flows give better coupling between the noise distribution and the image distribution, thus allow successful distillation.
+
+
 
 ## Related Materials
 
