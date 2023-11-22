@@ -105,7 +105,7 @@ https://github.com/gnobitab/InstaFlow/assets/1157982/897e2d1a-eff9-44bf-ab89-bc2
 Our pipeline consists of three steps:
 
 1. Generate (text, noise, image) triplets from pre-trained Stable Diffusion
-2. Apply ```text-conditioned reflow``` to yield 2-Rectified Flow, which is a straightened generative probaiblity flow.
+2. Apply ```text-conditioned reflow``` to yield 2-Rectified Flow, which is a straightened generative probability flow.
 3. Distill from 2-Rectified Flow to get **One-Step InstaFlow**. Note that distillation and reflow are ```orthogonal techniques```.
 
 As captured in the video and the image, straight flows have the following advantages:
