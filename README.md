@@ -2,7 +2,7 @@
 
 ## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
-[[Paper]](https://arxiv.org/abs/2309.06380) [[Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[(🔥New) Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)]
+[[Paper]](https://arxiv.org/abs/2309.06380) [[Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[(🔥New) Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)][[(🔥New) Colab Notebook](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing)]
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
@@ -10,6 +10,8 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 
 ## News 
 
+- (🔥New) 2023/11/23 Colab notebook is online now. Try it [here](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing). (We thank individual contributor [
+xaviviro](https://github.com/xaviviro))
 - (🔥New) 2023/11/22 One-step InstaFlow is compatible with pre-trained ControlNets. See [here](https://github.com/gnobitab/InstaFlow/tree/main#controlnet). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))
 - (🔥New) 2023/11/22 We release the pre-trained models and inference codes [here](https://github.com/gnobitab/InstaFlow/tree/main/code).
 - 2023/09/26 We provide a demo of InstaFlow-0.9B in 🤗Hugging Face Space. Try it [here](https://huggingface.co/spaces/XCLiu/InstaFlow).
