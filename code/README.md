@@ -25,7 +25,7 @@ Below is a simple examplary script for generating images with pre-trained 2-Rect
 from pipeline_rf import RectifiedFlowPipeline
 import torch
 
-pipe = RectifiedFlowPipeline.from_pretrained("XCLIU/2_rectified_flow_from_sd_1_5", torch_dtype=torch.float16) 
+pipe = RectifiedFlowPipeline.from_pretrained("XCLiu/2_rectified_flow_from_sd_1_5", torch_dtype=torch.float16) 
 ### switch to torch.float32 for higher quality
 
 pipe.to("cuda")  ### if GPU is not available, comment this line
@@ -52,7 +52,7 @@ To generate images with pre-trained one-step InstaFlow-0.9B, you may refer to th
 from pipeline_rf import RectifiedFlowPipeline
 import torch
 
-pipe = RectifiedFlowPipeline.from_pretrained("XCLIU/instaflow_0_9B", torch_dtype=torch.float16) 
+pipe = RectifiedFlowPipeline.from_pretrained("XCLiu/instaflow_0_9B_from_sd_1_5", torch_dtype=torch.float16) 
 ### switch to torch.float32 for higher quality
 
 pipe.to("cuda")  ### if GPU is not available, comment this line
