@@ -2,7 +2,7 @@
 
 ## ⚡InstaFlow! One-Step Stable Diffusion with Rectified Flow
 
-[[Paper]](https://arxiv.org/abs/2309.06380) [[Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[(🔥New) Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)][[(🔥New) Colab Notebook](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing)]
+[[Paper]](https://arxiv.org/abs/2309.06380) [[(🔥New) Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[(🔥New) Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)][[Colab Notebook](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing)]
 
 by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
 
@@ -10,10 +10,13 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon R
 
 ## News 
 
-- (🔥New) 2023/11/23 Colab notebook is online now. Try it [here](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing). (We thank individual contributor [
+- 2023/12/04 (🔥New) We updated the [demo](https://huggingface.co/spaces/XCLiu/InstaFlow) in 🤗Hugging Face Space with InstaFlow+[dreamshaper-7](https://huggingface.co/Lykon/dreamshaper-7). Image quality significantly improves! We also provide the Gradio demo for you to run locally [here](https://github.com/gnobitab/InstaFlow/tree/main/code#local-gradio-interface).
+- 2023/12/04 (🔥New) One-step InstaFlow is compatible with pre-trained LoRAs! See [here](https://github.com/gnobitab/InstaFlow/tree/main#lora). Code is available [here](https://github.com/gnobitab/InstaFlow/tree/main/code#adding-lora-to-2-rectified-flow-or-instaflow-09b). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))  
+- 2023/12/04 (🔥New) ONNX support is available now! [[ONNX InstaFlow]](https://huggingface.co/TheyCallMeHex/InstaFlow-0.9B-ONNX/tree/main)  [[ONNX 2-Rectified Flow]](https://huggingface.co/TheyCallMeHex/2-Rectified-Flow-ONNX)   [[ONNXStack UI]](https://github.com/saddam213/OnnxStack/releases/tag/v0.10.0) (We thank [saddam213](https://github.com/saddam213))
+- 2023/11/23 Colab notebook is online now. Try it [here](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing). (We thank individual contributor [
 xaviviro](https://github.com/xaviviro))
-- (🔥New) 2023/11/22 One-step InstaFlow is compatible with pre-trained ControlNets. See [here](https://github.com/gnobitab/InstaFlow/tree/main#controlnet). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))
-- (🔥New) 2023/11/22 We release the pre-trained models and inference codes [here](https://github.com/gnobitab/InstaFlow/tree/main/code).
+- 2023/11/22 One-step InstaFlow is compatible with pre-trained ControlNets. See [here](https://github.com/gnobitab/InstaFlow/tree/main#controlnet). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))
+- 2023/11/22 We release the pre-trained models and inference codes [here](https://github.com/gnobitab/InstaFlow/tree/main/code).
 - 2023/09/26 We provide a demo of InstaFlow-0.9B in 🤗Hugging Face Space. Try it [here](https://huggingface.co/spaces/XCLiu/InstaFlow).
 
 ## Introduction
@@ -69,6 +72,18 @@ https://github.com/gnobitab/InstaFlow/assets/1157982/e8c41d7c-aa1d-4ac3-b96f-5cd
 
 
 </div>
+
+## LoRA
+
+One-step InstaFlow is compatible with pre-trained LoRAs. We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/) for providing and testing the *Rectified Flow+LoRA* pipeline!
+
+InstaFlow seems to have higher diversity than SDXL-Turbo.
+
+
+
+https://github.com/gnobitab/InstaFlow/assets/1157982/8f12960e-116d-486a-a2e9-448d745394c2
+
+
 
 ## ControlNet
 
