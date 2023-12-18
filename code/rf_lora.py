@@ -1,5 +1,3 @@
-# export http_proxy=bj-rd-proxy.byted.org:3128  https_proxy=bj-rd-proxy.byted.org:3128  no_proxy=code.byted.org
-
 import copy
 import torch
 from safetensors import safe_open
