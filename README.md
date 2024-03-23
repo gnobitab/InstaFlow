@@ -4,7 +4,7 @@
 
 [[Paper]](https://arxiv.org/abs/2309.06380) [[Demo in 🤗Hugging Face Space]](https://huggingface.co/spaces/XCLiu/InstaFlow) [[Code and Pre-trained Models](https://github.com/gnobitab/InstaFlow/tree/main/code)][[Colab Notebook](https://colab.research.google.com/drive/1mXvIrkbWFwHcZl0sMNjrR3zGtYlrI6re?usp=sharing)]
 
-by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu* from [Helixon Research](https://www.helixon.com/) and UT Austin 
+by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu*  
 
 </div>
 
