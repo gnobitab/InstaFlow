@@ -10,6 +10,7 @@ by *Xingchao Liu, Xiwen Zhang, Jianzhu Ma, Jian Peng, Qiang Liu*
 
 ## News 
 
+- (NEW) 2023/05/17 Try our new few-step model PeRFlow at [here](https://github.com/magic-research/piecewise-rectified-flow)!
 - 2023/12/04 We updated the [demo](https://huggingface.co/spaces/XCLiu/InstaFlow) in 🤗Hugging Face Space with InstaFlow+[dreamshaper-7](https://huggingface.co/Lykon/dreamshaper-7). Image quality significantly improves! We also provide the Gradio demo for you to run locally [here](https://github.com/gnobitab/InstaFlow/tree/main/code#local-gradio-interface).
 - 2023/12/04 One-step InstaFlow is compatible with pre-trained LoRAs! See [here](https://github.com/gnobitab/InstaFlow/tree/main#lora). Code is available [here](https://github.com/gnobitab/InstaFlow/tree/main/code#adding-lora-to-2-rectified-flow-or-instaflow-09b). (We thank individual contributor [Dr. Hanshu Yan](https://hanshuyan.github.io/))  
 - 2023/12/04 ONNX support is available now! [[ONNX InstaFlow]](https://huggingface.co/TheyCallMeHex/InstaFlow-0.9B-ONNX/tree/main)  [[ONNX 2-Rectified Flow]](https://huggingface.co/TheyCallMeHex/2-Rectified-Flow-ONNX)   [[ONNXStack UI]](https://github.com/saddam213/OnnxStack/releases/tag/v0.10.0) (We thank [saddam213](https://github.com/saddam213))
@@ -145,6 +146,8 @@ We provide several related links and readings here:
 * FlowGrad: Controlling the Output of Generative ODEs With Gradients (https://github.com/gnobitab/FlowGrad)
 
 * Fast Point Cloud Generation with Straight Flows (https://github.com/klightz/PSF)
+
+* Piecewise Rectified Flow (https://github.com/magic-research/piecewise-rectified-flow)
 
 ## Citation
 
